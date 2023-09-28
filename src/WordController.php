@@ -23,11 +23,8 @@ class WordController
     {
         if ($date) {
             $this->processResourceRequest($method, $date);
-
         } else {
-
             $this->processCollectionRequest($method);
-
         }
     }
 
@@ -84,12 +81,3 @@ class WordController
         return false;
     }
 }
-
-
-
-
-
-
-
-
-

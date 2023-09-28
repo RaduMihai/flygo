@@ -18,13 +18,3 @@ class ErrorHandler
         // @toDo also some error logging should be done
     }
 }
-
-
-
-
-
-
-
-
-
-
